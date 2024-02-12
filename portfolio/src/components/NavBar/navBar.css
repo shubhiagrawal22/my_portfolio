@@ -9,6 +9,7 @@
 
 .nav-content {
   max-width: 1300px;
+  height: 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
