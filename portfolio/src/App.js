@@ -1,4 +1,5 @@
 import './App.css';
+import ContactMe from './components/ContactMe/ContactMe';
 import NavBar from './components/NavBar/NavBar';
 import Skills from './components/Skills/Skills';
 import WorkExperience from './components/Work/WorkExperience';
@@ -12,6 +13,7 @@ function App() {
         <Character />
         <Skills />
         <WorkExperience />
+        <ContactMe />
       </div>
     </>
   );
