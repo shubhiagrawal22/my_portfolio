@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import Skills from './components/Skills/Skills';
 import Character from './components/character/Character';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <div className='container'>
         <Character />
+        <Skills />
       </div>
     </>
   );
