@@ -49,7 +49,7 @@ const Certificate = () => {
     };
 
   return (
-    <section className="certificate-container">
+    <section className="certificate-container" id='certificate'>
     <h5>Certifications</h5>
     <div className="certificate-content">
 

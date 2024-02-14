@@ -22,11 +22,14 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               <a href="/" className="menu-item">Work Experience</a>
             </li>
             <li>
+              <a href="/" className="menu-item">Certifications</a>
+            </li>
+            <li>
               <a href="/" className="menu-item">Contact Me</a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
-                Hire Me
+                Resume
             </button>
           </ul>
         </div>

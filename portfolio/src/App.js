@@ -6,10 +6,12 @@ import NavBar from './components/NavBar/NavBar';
 import Skills from './components/Skills/Skills';
 import WorkExperience from './components/Work/WorkExperience';
 import Character from './components/character/Character';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <>
+    <BrowserRouter>
       <NavBar />
       <div className='container'>
         <Character />
@@ -19,6 +21,7 @@ function App() {
         <ContactMe />
       </div>
       <Footer />
+      </BrowserRouter>
     </>
   );
 }

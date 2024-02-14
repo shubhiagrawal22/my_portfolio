@@ -3,6 +3,7 @@ import "./navBar.css";
 import logo from "../../assets/S-logos_transparent.png";
 import "material-symbols";
 import MobileNav from "./MobileNav/MobileNav";
+import { HashLink as Link} from 'react-router-hash-link';
 
 const NavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -19,19 +20,22 @@ const NavBar = () => {
 
           <ul>
             <li>
-              <a href="/" className="menu-item"> Home </a>
+              <Link to="#home" className="menu-item"> Home </Link>
             </li>
             <li>
-              <a href="/" className="menu-item"> Skills </a>
+              <Link to="#skills" className="menu-item"> Skills </Link>
             </li>
             <li>
-              <a href="/" className="menu-item"> Work Experience </a>
+              <Link to="#work" className="menu-item"> Work Experience </Link>
             </li>
             <li>
-              <a href="/" className="menu-item"> Contact Me </a>
+              <Link to="#certificate" className="menu-item"> Certifications </Link>
+            </li>
+            <li>
+              <Link to="#contact" className="menu-item"> Contact Me </Link>
             </li>
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              Resume
             </button>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>

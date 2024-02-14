@@ -10,7 +10,7 @@ import js from '../../assets/js.png';
 
 const Character = () => {
   return (
-    <section className="char-container">
+    <section className="char-container" id="home">
       <div className="char-content">
         <h2>Hi, I'm Shubhi</h2>
         <p>
