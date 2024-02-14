@@ -80,3 +80,31 @@ export const WORK_EXPERIENCE = [
 //     ],
 //   },
 ];
+
+export const CERTIFICATES = [
+  {
+    title: "JavaScript Intermediate by SoloLearn",
+    date: "February 2024",
+    skills: ["JavaScript"]
+  },
+  {
+    title: "Advanced SQL by Kaggle",
+    date: "Jan 2024",
+    skills: ["SQL"]
+  },
+  {
+    title: "Python by Kaggle",
+    date: "December 2023",
+    skills: ["Python"]
+  },
+  {
+    title: "2023 Web Development BootCamp by Udemy",
+    date: "June 2023",
+    skills: ["React.js, JavaScript, REST APIs, Responsive Web Design, HTML, Cascading Style Sheets (CSS)"]
+  },
+  {
+    title: "Core Java by Internshala",
+    date: "July 2021",
+    skills: ["Java Development"]
+  },
+];

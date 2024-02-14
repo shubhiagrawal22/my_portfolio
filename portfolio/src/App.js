@@ -1,4 +1,5 @@
 import './App.css';
+import Certificate from './components/Certificates/Certificate';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
@@ -14,6 +15,7 @@ function App() {
         <Character />
         <Skills />
         <WorkExperience />
+        <Certificate />
         <ContactMe />
       </div>
       <Footer />

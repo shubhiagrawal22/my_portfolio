@@ -50,7 +50,6 @@ const WorkExperience = () => {
         </div>
 
         <Slider ref={sliderRef} {...settings}>
-        {/* <Slider></Slider> */}
         {WORK_EXPERIENCE.map((item) => (
           <ExperienceCard key={item.title} details={item} />
         ))}
