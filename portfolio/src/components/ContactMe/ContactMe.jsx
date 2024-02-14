@@ -6,6 +6,7 @@ import ContactInfo from './ContactInfoCard/ContactInfo';
 import ContactForm from './contactForm/ContactForm';
 
 const ContactMe = () => {
+
   return (
     <section className='contact-container' id='contact'>
         <h5>Contact Me</h5>
@@ -15,10 +16,12 @@ const ContactMe = () => {
                 <ContactInfo
                     iconUrl={email}
                     text="shubhi.agrawal3@outlook.com"
+                    url="mailto:shubhi.agrawal3@outlook.com"
                 />
                 <ContactInfo
                     iconUrl={git}
                     text="https://github.com/shubhiagrawal22"
+                    url="https://github.com/shubhiagrawal22"
                 />
             </div>
             <div style={{ flex: 1}}>

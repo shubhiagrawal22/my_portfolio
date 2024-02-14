@@ -34,7 +34,9 @@ const NavBar = () => {
             <li>
               <Link to="#contact" className="menu-item"> Contact Me </Link>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
+            <button className="contact-btn" onClick={() => {
+              window.open("https://drive.google.com/file/d/1B3ahPTFiTzYwcqYq7CaVdSM2WZWF1qEM/view?usp=sharing", "_blank");
+            }}>
               Resume
             </button>
           </ul>

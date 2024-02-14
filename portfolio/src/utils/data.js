@@ -21,6 +21,7 @@ export const SKILLS = [
       { skill: "Node.js", percentage: "60%" },
       { skill: "Express.js", percentage: "50%" },
       { skill: "MongoDB", percentage: "60%" },
+      { skill: "Python", percentage: "60%" },
     ],
   },
   {

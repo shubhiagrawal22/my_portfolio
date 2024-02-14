@@ -6,6 +6,7 @@ import girl from '../../assets/unnamed.jpg';
 import html from '../../assets/html.png';
 import css from '../../assets/css.png';
 import js from '../../assets/js.png';
+import api from '../../assets/api.png';
 
 
 const Character = () => {
@@ -31,8 +32,13 @@ const Character = () => {
       </div>
       <div className="char-img">
         <div>
-          <div className="tech-icon">
-            <img src={reactI} alt="" />
+          <div>
+            <div className="tech-icon" style={{marginBottom : "2rem"}}>
+              <img src={reactI} alt="" />
+            </div>
+            <div className="tech-icon">
+            <img src={api} alt="" />
+            </div>
           </div>
           <img className="girl" src={girl} alt="" />
         </div>

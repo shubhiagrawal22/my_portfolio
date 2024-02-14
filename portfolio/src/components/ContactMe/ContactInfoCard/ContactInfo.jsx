@@ -1,13 +1,13 @@
 import React from 'react';
 import './ContactInfo.css';
 
-const ContactInfo = ({ iconUrl, text}) => {
+const ContactInfo = ({ iconUrl, text, url}) => {
   return (
     <div className='contact-detail-card'>
         <div className="icon">
             <img src={iconUrl} alt={text} />
         </div>
-        <p>{text}</p>
+        <a href={url} target='blank'>{text}</a>
     </div>
   )
 }
