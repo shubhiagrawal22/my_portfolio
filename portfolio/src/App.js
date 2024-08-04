@@ -3,6 +3,7 @@ import Certificate from './components/Certificates/Certificate';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
+import Project from './components/Projects/Project';
 import Skills from './components/Skills/Skills';
 import WorkExperience from './components/Work/WorkExperience';
 import Character from './components/character/Character';
@@ -17,6 +18,7 @@ function App() {
         <Character />
         <Skills />
         <WorkExperience />
+        <Project />
         <Certificate />
         <ContactMe />
       </div>

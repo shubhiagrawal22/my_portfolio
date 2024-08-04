@@ -1,6 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
-import logo from "../../../assets/S-logos_transparent.png";
+import logo from "../../../assets/po.png";
 import { HashLink as Link } from "react-router-hash-link";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
@@ -21,6 +21,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             </li>
             <li>
               <Link to="#work" className="menu-item"> Work Experience </Link>
+            </li>
+            <li>
+              <Link to="#project" className="menu-item"> Projects </Link>
             </li>
             <li>
               <Link to="#certificate" className="menu-item"> Certifications </Link>

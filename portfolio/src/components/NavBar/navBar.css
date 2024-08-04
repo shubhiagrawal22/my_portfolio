@@ -18,7 +18,7 @@
 }
 
 .logo {
-  width: 8rem;
+  width:300px;
   height: auto;
 }
 
@@ -106,6 +106,11 @@
   border: 1px solid #a993fe;
 }
 
+@media (max-width: 500px) {
+  .logo {
+    width: 250px;
+  }
+}
 @media (max-width: 769px) {
   .menu-btn {
     display: block;

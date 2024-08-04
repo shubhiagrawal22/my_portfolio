@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navBar.css";
-import logo from "../../assets/S-logos_transparent.png";
+import logo from "../../assets/po.png";
 import "material-symbols";
 import MobileNav from "./MobileNav/MobileNav";
 import { HashLink as Link} from 'react-router-hash-link';
@@ -29,13 +29,16 @@ const NavBar = () => {
               <Link to="#work" className="menu-item"> Work Experience </Link>
             </li>
             <li>
+              <Link to="#project" className="menu-item"> Projects </Link>
+            </li>
+            <li>
               <Link to="#certificate" className="menu-item"> Certifications </Link>
             </li>
             <li>
               <Link to="#contact" className="menu-item"> Contact Me </Link>
             </li>
             <button className="contact-btn" onClick={() => {
-              window.open("https://drive.google.com/file/d/1B3ahPTFiTzYwcqYq7CaVdSM2WZWF1qEM/view?usp=sharing", "_blank");
+              window.open("https://drive.google.com/file/d/1KuzqP8Q77qKOYIDX1KLwvu5y1JrW3wtL/view?usp=sharing", "_blank");
             }}>
               Resume
             </button>
