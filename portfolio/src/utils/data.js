@@ -48,10 +48,21 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: "Eurofestia",
+    link: "https://eurofestia.com/",
+    description: [
+      "A sophisticated web application built to schedule and view all the music festivals happening across Europe",
+      "Developed using React, Redux, Bootstrap for seamless and consistent user experience.",
+      "UI design created through Figma matching the theme of concerts and music to entrance the user  ",
+      "The app features a stylish accordion UI design, enhancing user interaction and providing a smooth browsing experience through collapsible sections",
+     
+    ],
+  },
+  {
     title: "Netflix GPT",
     link: "https://netflix-gpt-three-gamma.vercel.app/",
     description: [
-      "• A sophisticated web application built to revolutionize user interaction with content using openAI APIs.",
+      "A sophisticated web application built to revolutionize user interaction with content using openAI APIs.",
       "Developed using React, Redux, Tailwind CSS, and Firebase with secure user authentication and efficient state management using Redux for a seamless and consistent user experience.",
       "State management is facilitated through Redux and Context API, enabling efficient data handling and seamless updates across components",
       "The app features a stylish accordion UI design, enhancing user interaction and providing a smooth browsing experience through collapsible sections",

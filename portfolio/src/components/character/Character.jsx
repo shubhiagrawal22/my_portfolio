@@ -7,6 +7,7 @@ import html from '../../assets/html.png';
 import css from '../../assets/css.png';
 import js from '../../assets/js.png';
 import api from '../../assets/api.png';
+import figma from '../../assets/figma.png';
 
 
 const Character = () => {
@@ -22,6 +23,8 @@ const Character = () => {
                 "Software Developer",
                 "Fullstack Developer",
                 "Frontend Developer",
+                "UI/UX Designer",
+                "UI/UX Developer"
               ]}
               typeSpeed={40}
               backSpeed={50}
@@ -36,8 +39,11 @@ const Character = () => {
             <div className="tech-icon" style={{marginBottom : "2rem"}}>
               <img src={reactI} alt="" />
             </div>
-            <div className="tech-icon">
+            <div className="tech-icon" style={{marginBottom : "2rem"}}>
             <img src={api} alt="" />
+            </div>
+            <div className="tech-icon">
+            <img src={figma} alt="" />
             </div>
           </div>
           <img className="girl" src={girl} alt="" />
